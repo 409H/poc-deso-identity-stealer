@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+     <title>Some Great Extension</title>
+   </head>
+   <style>
+     body {
+       width: 700px;
+       height: 500px;
+       overflow-x: wrap;
+     }
+   </style>
+   <body>
+    <h3>Some really good trusted extension</h3>
+    <ul>
+      <li>That was bought by a malicious actor?</li>
+      <li>Build process was compromised?</li>
+      <li>Deployment process compromised?</li>
+    </ul>
+
+    <p>
+      We can use the extension with <strong>activeTab</strong>, <strong>storage</strong> permissions to force open the deso 
+      identity app, read the localStorage, send it back to our extension service worker, decrypt it, and exfil it to 
+      some remote server.
+    </p>
+
+    <div id="resp"></div>
+
+    <script src="./index.js"></script>
+   </body>
+ </html>

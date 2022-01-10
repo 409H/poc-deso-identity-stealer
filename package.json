@@ -1,0 +1,30 @@
+{
+  "name": "deso-key-grabber-browser-extensions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint src/*.js",
+    "build": "rm -Rf dist/* && webpack"
+  },
+  "pre-commit": "eslint",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.0",
+    "eslint": "^8.6.0",
+    "path": "^0.12.7",
+    "pre-commit": "^1.2.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "key-encoder": "^2.0.3",
+    "lodash": "^4.17.21",
+    "stream-browserify": "^3.0.0"
+  }
+}
